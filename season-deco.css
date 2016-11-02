@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.main-bar{
+	padding: 12px 48px;
+	background-color: #efefef;
+	position: relative;
+	overflow: hidden;
+
+}
+.main-bar a{
+	text-decoration: none;
+	color:#444444;
+	float: right;
+	display: inline-block;
+
+}
+.main-container{
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.main-container .main-header {
+	font-size: 72px;
+	margin: 36px;
+	color: #444444;
+}
+.main-container .main-header a{
+	text-decoration: none;
+	color: #444444;
+}
+
+.main-image{
+	margin-top:48px;
+}
+.main-image .img-top{
+	width: 1360px;
+	height: 300px;
+	background-image: url("flowe5.jpg");
+	background-position: center;
+	background-size: 1344px auto;
+	margin: 36px auto;
+}
+
+.main-image .img-01{
+	width: 300px;
+	height: 300px;
+	background-image: url("flowe15.png");
+	background-position: center center;
+	background-size: auto 420px;
+	display: inline-block;
+	margin: 0px 24px;
+}
+.main-image .img-02{
+	width: 300px;
+	height: 300px;
+	background-image: url("flowe16.png");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.main-image .img-03{
+	width: 300px;
+	height: 300px;
+	background-image: url("flowe17.png");
+	background-position: center center;
+	background-size: auto 420px;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.main-image .img-04{
+	width: 300px;
+	height: 300px;
+	background-image: url("flowe18.png");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.sub-image{
+    margin-top:190px;
+    margin-bottom: 230px;
+}
+
+.sub-image .img-05{
+	width: 300px;
+	height: 300px;
+	background-image: url("flowe19.png");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+.sub-image .img-06{
+	width: 300px;
+	height: 300px;
+	background-image: url("flowe20.png");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.sub-image .img-07{
+	width: 300px;
+	height: 300px;
+	background-image: url("flowe21.png");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.sub-image .img-08{
+	width: 300px;
+	height: 300px;
+	background-image: url("flowe22.png");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.footer{
+    text-align: center;
+}

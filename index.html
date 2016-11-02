@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8"/>
+	<link href="body.css" rel="stylesheet"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+
+	<title>Blume</title>
+
+</head>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+	$('body').fadeIn(1000);
+	});
+
+	
+
+	$(document).ready(function(){
+	$('.img').delay( 100 ).fadeIn(1000).css("display");
+	});
+
+	$(document).ready(function(){
+	$('.img2').delay( 300 ).fadeIn(1000).css("display");
+	});
+
+	$(document).ready(function(){
+	$('.img3').delay( 500 ).fadeIn(1000).css("display");
+	});
+
+	$(document).ready(function(){
+	$('.img4').delay( 700 ).fadeIn(1000).css("display");
+	});
+	$(document).ready(function(){
+	$('.img5').delay( 900 ).fadeIn(1000).css("display");
+	});
+
+	$(document).ready(function(){
+	$('.img6').delay( 1100 ).fadeIn(1000).css("display");
+	});
+
+	$(document).ready(function(){
+	$('.img7').delay( 1300 ).fadeIn(1000).css("display");
+	});
+
+	$(document).ready(function(){
+	$('.img8').delay( 1500 ).fadeIn(1000).css("display");
+	});
+	$(document).ready(function(){
+	$('.start-filter').delay( 1700 ).fadeIn(1000).css("display");
+	});
+
+</script>
+
+
+
+<body>
+	<div class="start-main">
+			<div class="start-filter">
+				<img src="logo-start.png"/>
+				<div class="scroll-down">
+					<div>
+						<a class="scroll" href="#main-container">
+							<img src="scroll-arrow-to-down.jpg"/>
+						</a>			
+					</div>
+				</div>
+			</div>
+			<div class="start-img img">
+			</div>
+			<div class="start-img img2">
+			</div>
+			<div class="start-img img3">
+			</div>
+			<div class="start-img img4">
+			</div>
+
+			<div class="start-img img5">
+			</div>
+			<div class="start-img img6">
+			</div>
+			<div class="start-img img7">
+			</div>
+			<div class="start-img img8">
+			</div>
+			
+			
+		</div>
+		
+	<div id="main-container" class="main-container">
+		 <div class="main-bar">
+		 	<a href="#">MYPAGE</a>
+		 	<a href="join.html">JOIN |&nbsp</a>
+		 	<a href="login.html">LOGIN |&nbsp</a>
+		 </div>
+
+		<div class="main-header">
+			<a href="main.html"><img src="logo.png"/></a>
+		</div>
+
+    <!-- Drop down -->
+    <div id="drop">
+        <ul class="dropdown-main">
+           <li class="high-light"><a href="home-deco.html">Home-deco</a></li>
+           
+           <li class="dropdown">
+               <a href="#" class="dropbtn">Season-deco</a>
+                  <div class="dropdown-content">
+                    <a href="spring.html"> Spring </a>
+                    <a href="summer.html"> Summer </a>
+                    <a href="fall.html"> Fall </a>
+                    <a href="winter.html"> Winter </a>
+                  </div></li>
+           
+           <li class="dropdown1">
+               <a href="#" class="dropbtn1"">National-flower</a>
+                  <div class="dropdown-content1">
+                    <a href="asia.html">Asia</a>
+                    <a href="europe.html">Europe</a>
+                    <a href="america.html">America</a>
+                  </div>
+           </li>
+
+           <li><a href="special-gift.html">Special-gift</a></li>
+           
+           <li><a href="primium.html">Premium</a></li>
+
+           <li><a href="notice.html">Notice</a></li>
+
+
+        </ul>
+
+    </div>
+    <!-- Drop down End -->
+
+		<div class="main-image">
+			<div class="img-01">
+			</div>
+			<div class="img-02">
+			</div>
+			<div class="img-03">
+			</div>
+			<div class="img-04">
+			</div>
+		</div>
+
+	</div>
+		
+	<div class="footer">
+	  
+	  <hr style="border: 1px solid silver;" width="80%">
+
+	  <p>상호명: 주식회사 브루메 | 경기도 안산시  상동 빌딩 5층 </p>
+	  <p>전화: 1661-1234 </p>
+	  <p>대표이사: 박정필 | 사업자등록번호: 264-11-34564  통신판매 번호: 031-233-0011 </p>
+	  <p>Copyright (C) 2014 Blume KOREA All right reserved </p>
+	</div>
+
+  
+</body>
+	<script>
+		jQuery(document).ready(function($) {
+		        $(".scroll").click(function(event){            
+		                event.preventDefault();
+		                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+		        });
+		});
+	</script>
+
+</html>

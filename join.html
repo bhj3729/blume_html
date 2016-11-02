@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8"/>
+	<link href="join.css" rel="stylesheet"/>
+	<title>&nbsp Blume &nbsp | &nbsp Join</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+</head>
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+	$('body').fadeIn(500);
+	});
+
+</script>
+
+<body>
+	<div class="main-container">
+		 <div class="main-bar">
+		 	<a href="#">MYPAGE</a>
+		 	<a href="join.html">JOIN |&nbsp</a>
+		 	<a href="login.html">LOGIN |&nbsp</a>
+		 </div>
+
+		<div class="main-header">
+			<a href="index.html"><img src="logo.png"/></a>
+		</div>
+
+    <!-- Drop down -->
+    <div id="drop">
+        <ul class="dropdown-main">
+           <li class="high-light"><a href="home-deco.html">Home-deco</a></li>
+           
+           <li class="dropdown">
+               <a href="#" class="dropbtn">Season-deco</a>
+                  <div class="dropdown-content">
+                    <a href="spring.html"> Spring </a>
+                    <a href="summer.html"> Summer </a>
+                    <a href="fall.html"> Fall </a>
+                    <a href="winter.html"> Winter </a>
+                  </div></li>
+           
+           <li class="dropdown1">
+               <a href="#" class="dropbtn1"">National-flower</a>
+                  <div class="dropdown-content1">
+                    <a href="asia.html">Asia</a>
+                    <a href="europe.html">Europe</a>
+                    <a href="america.html">America</a>
+                  </div>
+           </li>
+
+           <li><a href="special-gift.html">Special-gift</a></li>
+           
+           <li><a href="primium.html">Premium</a></li>
+
+           <li><a href="notice.html">Notice</a></li>
+
+
+        </ul>
+
+    </div>
+    <!-- Drop down End -->
+
+	<div class="login-container">
+	  
+	  <div class="title">
+	      <p> Join </p>
+	  </div>
+
+	  <hr style="border: 0.8px solid silver;" width="68%">
+
+	  <br>
+	  <br>
+	  <br>
+
+		<div class="left-image">
+		</div>
+
+		<div class="right-login" >
+
+					<form name="signUpForm" class="form" role="form">
+					
+						<div class="margin-top">
+							<div class="jjoin">
+							  이름
+							</div>
+							<input type="text" name="lastname"/>
+						</div> 
+
+							</br>
+
+
+						<div class="margin-top">	
+							<div class="jjoin">
+							이메일
+							</div>
+							<input type="text" name="email" />
+						</div>	
+
+							</br>
+
+						<div class="margin-top">	
+							<div class="jjoin2">
+							비밀번호
+							</div>
+							<input type="password" name="password" />
+						</div>
+
+							</br>
+
+						<div class="margin-top">
+							<div class="jjoin3">
+							비밀번호 확인
+							</div>
+							<input type="password" name="confirm_password"/>
+						</div>
+
+							</br>
+
+						<div class="margin-top">
+							<div class="jjoin4">
+							성별
+							</div>
+							<input type="radio" name="gender" ng-model="user.gender" value="M">남자
+							<input type="radio" name="gender" ng-model="user.gender" value="F">여자
+						</div>
+
+							</br>
+
+						<div class="margin-top">
+							<div class="jjoin5">
+							주소
+						    </div>
+	                        <input class="address" type="text" name="address"/>
+						</div>
+
+							</br>
+						
+						<a href="main-mm.html">
+						<div class="btn-login">
+			                <button type="submit" name="action">Join
+		             	    </button>
+	                    </div>
+	                    </a>
+
+					</form>
+			
+	     </div>
+	</div>
+
+   <hr style="border: 1px solid silver;" width="80%">
+
+	<div class="footer">
+	  <p>상호명: 주식회사 브루메 | 경기도 안산시  상동 빌딩 5층 </p>
+	  <p>전화: 1661-1234 </p>
+	  <p>대표이사: 박정필 | 사업자등록번호: 264-11-34564  통신판매 번호: 031-233-0011 </p>
+	  <p>Copyright (C) 2014 Blume KOREA All right reserved </p>
+	</div> 
+
+</body>
+
+</html>

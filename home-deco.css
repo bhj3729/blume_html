@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+    font-family: NanumSR;
+    src: url(font/NanumSquareR.woff);
+}
+
+
+body {
+	margin: 0;
+	font-family: 'NanumSR', sans-serif;
+	display:none;
+}
+.main-bar{
+	padding: 12px 48px;
+	background-color: #efefef;
+	position: relative;
+	overflow: hidden;
+
+}
+.main-bar a{
+	text-decoration: none;
+	color:#444444;
+	float: right;
+	display: inline-block;
+
+}
+.main-container{
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.main-container .main-header {
+	font-size: 72px;
+	margin: 36px;
+	color: #444444;
+}
+.main-container .main-header a{
+	text-decoration: none;
+	color: #444444;
+}
+
+
+.main-image{
+	margin-top:48px;
+}
+.main-image .img-top{
+	width: 1360px;
+	height: 300px;
+	background-image: url("flowe14.jpg");
+	background-position: center;
+	background-size: 1344px auto;
+	margin: 36px auto;
+}
+
+.main-image .img-01{
+	width: 300px;
+	height: 300px;
+	background-image: url("flower1.jpg");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+.main-image .img-02{
+	width: 300px;
+	height: 300px;
+	background-image: url("flower2.jpg");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.main-image .img-03{
+	width: 300px;
+	height: 300px;
+	background-image: url("flower3.jpg");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.main-image .img-04{
+	width: 300px;
+	height: 300px;
+	background-image: url("flower4.jpg");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.sub-image{
+    margin-top:190px;
+    margin-bottom: 230px;
+}
+
+.sub-image .img-05{
+	width: 300px;
+	height: 300px;
+	background-image: url("flower5.jpg");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+.sub-image .img-06{
+	width: 300px;
+	height: 300px;
+	background-image: url("flower6.jpg");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.sub-image .img-07{
+	width: 300px;
+	height: 300px;
+	background-image: url("flower7.jpg");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.sub-image .img-08{
+	width: 300px;
+	height: 300px;
+	background-image: url("flower8.jpg");
+	background-position: center center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 24px;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+/*       Drop Down Class         */
+
+.dropdown-main li{
+	display: inline-block;
+	margin: 0 36px;
+	font-size: 20px;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #FFFFFF;
+}
+
+
+li a, .dropbtn {
+   display: inline-block;
+   color: #444444;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+   background-color: #EAEAEA;
+}
+
+li.dropdown {
+   display: inline-block;
+}
+
+li a:hover, .dropdown:hover .dropdown-content {
+  	display: block;
+}
+
+li a:hover, .dropdown1:hover .dropdown-content1 {
+  	display: block;
+}
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #ffffff;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   color: #686868;
+   text-align: left;
+}	
+
+.li a, .dropbtn1 {
+     display: inline-block;
+     color: #444444;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+
+.dropdown-content1 a:hover { 
+	background-color: #EAEAEA;
+}
+
+.li a:hover, .dropdown1:hover .dropbtn1 {
+     background-color: #EAEAEA;
+}
+
+.li.dropdown1 {
+     display: inline-block;
+}
+
+.dropdown-content1 {
+     display: none;
+     position: absolute;
+     background-color: #ffffff;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content1 a {
+     color: #686868;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+}
+
+
+	/*       Drop Down Class   - E n d      */
